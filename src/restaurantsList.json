@@ -9,6 +9,11 @@
             "name": "Shake Shack",
             "link": "https://www.shakeshack.co.uk/",
             "picture": "https://i2.wp.com/www.springhappenings.com/wp-content/uploads/2020/01/shakeshack.png?fit=1452%2C924&ssl=1"
+        },
+        {
+            "name": "Wok To Walk",
+            "link": "https://www.woktowalk.com/uk/",
+            "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0c/dd/10/ca/wok-and-walk-to-go.jpg"
         }
     ]
 }
