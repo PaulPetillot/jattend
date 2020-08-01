@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import './App.css';
 
 const calculateTimeLeft = () => {
@@ -8,10 +9,10 @@ const calculateTimeLeft = () => {
 
   if (difference > 0) {
     timeLeft = {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      jours: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      heures: Math.floor((difference / (1000 * 60 * 60)) % 24),
       minutes: Math.floor((difference / 1000 / 60) % 60),
-      seconds: Math.floor((difference / 1000) % 60)
+      secondes: Math.floor((difference / 1000) % 60)
     };
   }
 
@@ -39,9 +40,14 @@ function App() {
   });
   return (
     <div className='app'>
-      <h1>Marine arrive dans:</h1>
+      <h1 className='timer-title'>Marine arrive dans:</h1>
       <div>
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+      </div>
+      <div className='links'>
+        <ul>
+          <li><Link to='/restaurants'>Où Manger ?</Link></li>
+        </ul>
       </div>
     </div>
   );
