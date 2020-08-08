@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b39ddb;
 }
 
 code {
@@ -21,7 +22,7 @@ code {
   background-color: #f06292;
 }
 .resto {
-  min-height: 100vh;
+  height: 100%;
   color: white;
   background-color: #b39ddb;
 }

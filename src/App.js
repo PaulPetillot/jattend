@@ -33,7 +33,7 @@ function App() {
       return;
     }
     timerComponents.push(
-      <span style={{ fontWeight: "bold"}}>
+      <span key={interval} style={{ fontWeight: "bold"}}>
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
