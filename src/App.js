@@ -48,6 +48,9 @@ function App() {
         <ul>
           <li><Link to='/restaurants'>Où Manger ?</Link></li>
         </ul>
+        <ul>
+          <li><a rel="noopener noreferrer" target='_blank' href='https://www.icloud.com/sharedalbum/#B0MGtnIORBhhCH'>L'Album</a></li>
+        </ul>
       </div>
     </div>
   );
