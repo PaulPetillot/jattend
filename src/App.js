@@ -42,7 +42,8 @@ function App() {
     <div className='app'>
       <h1 className='timer-title'>Marine arrive dans:</h1>
       <div>
-        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        {/* {timerComponents.length ? timerComponents : <span>Time's up!</span>} */}
+        Bientôt...
       </div>
       <div className='links'>
         <ul>
